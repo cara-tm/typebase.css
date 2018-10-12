@@ -8,18 +8,25 @@ html {
 }
 /* Copy & Lists */
 p {
-  line-height: 1.5rem;
+  margin-top: 1.5em;
   margin-top: 1.5rem;
   margin-bottom: 0;
+  line-height: 1.5em;
+  line-height: 1.5rem;
+
+  -webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto
 }
 ul,
 ol {
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem
 }
 ul li,
 ol li {
-  line-height: 1.5rem;
+  line-height: 1.5em;
+  line-height: 1.5rem
 }
 ul ul,
 ol ul,
@@ -29,9 +36,10 @@ ol ol {
   margin-bottom: 0;
 }
 blockquote {
-  line-height: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  line-height: 1.5em;
+  line-height: 1.5rem
 }
 /* Headings */
 h1,
@@ -40,34 +48,56 @@ h3,
 h4,
 h5,
 h6 {
-  /* Change heading typefaces here */
-  font-family: sans-serif;
-  margin-top: 1.5rem;
+  margin-top: 1.5em;
   margin-bottom: 0;
+  line-height: 1.5em;
   line-height: 1.5rem;
+  text-rendering: optimizeLegibility;
+  /* Change heading typefaces here */
+  font-family: sans-serif
 }
 h1 {
-  font-size: 4.242rem;
-  line-height: 4.5rem;
+  margin-top: .71em;
   margin-top: 3rem;
+  font-size: 4.242em;
+  font-size: 4.242rem;
+  line-height: 1.06em;
+  line-height: 4.5rem
 }
 h2 {
-  font-size: 2.828rem;
-  line-height: 3rem;
+  margin-top: .71em;
   margin-top: 3rem;
+	font-size: 2.828em;
+  font-size: 2.828rem;
+  line-height: 1.06;
+  line-height: 3rem
 }
 h3 {
-  font-size: 1.414rem;
+  margin-top: 1em;
+  font-size: 1.414em;
+  font-size: 1.414rem
 }
 h4 {
-  font-size: 0.707rem;
+  margin-top: 2.1em;
+  font-size: 0.707em;
+  font-size: 0.707rem
 }
 h5 {
-  font-size: 0.4713333333333333rem;
+  margin-top: 3.15em;
+  font-size: 0.4713333333333333em;
+  font-size: 0.4713333333333333rem
 }
 h6 {
-  font-size: 0.3535rem;
+  margin-top: 4.2em;
+  font-size: 0.3535em;
+  font-size: 0.3535rem
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {margin-top: 1.5rem}
 /* Tables */
 table {
   margin-top: 1.5rem;
